@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --main-color:white;
+    text-transform: capitalize;
+}
+
+.main {
+    width: 800px;
+    height: 100%;
+    padding: 10px;
+    background:linear-gradient(183deg, #3423ad, #8c1c80);
+    display: flex;
+    justify-content: space-between;
+    font-family:sans-serif;
+    margin: 20px auto;
+
+}
+.left-section {
+    color: var(--main-color);
+    background-color: rgb(164, 112, 212);
+    border-radius: 7px;
+    height: 100vh;
+    width: 320px;
+    padding: 10px;
+}
+h1 {
+    text-transform: uppercase;
+}
+
+.profile {
+    background-color: rgb(188, 150, 224);
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 80px;
+    border: 3px solid var(--main-color);
+    border-radius: 5px;
+    position: relative;
+    font-weight: bolder;
+}
+.left-section img {
+    width: 100px;
+    height: 100px;
+    border: 4px solid var(--main-color);
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    right: 110px;
+}
+.contact {
+    margin-top: 30px;
+}
+.co {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(188, 150, 224);
+    border: 2px solid transparent;
+    border-radius: 24px;
+    margin-top: 20px;
+    justify-content: space-between;
+ 
+}
+
+a {
+    color: var(--main-color);
+} 
+
+.languages {
+    margin-top: 20px;
+    position: relative;
+}
+.languages p{
+    margin-top: 25px;
+}
+.circle-1, .circle-2, .circle-3,.circle-4,.circle-5,.circle-6, .circle-7, .circle-8,.circle-9,.circle-10 {
+    width: 15px;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    background-color:var(--main-color);  
+}
+.circle-1, .circle-2, .circle-3,.circle-4,.circle-5 {
+    top:57px;
+}
+
+.circle-1,.circle-6  {left: 90px;}
+ .circle-2,.circle-7{left: 130px;}
+ .circle-3,.circle-8 {left: 175px;}
+.circle-4 ,.circle-9{left: 220px;}
+.circle-5,.circle-10 {left: 260px;}
+
+.circle-6, .circle-7, .circle-8,.circle-9,.circle-10  {
+    top:95px;
+}
+.circle-9,.circle-10 {
+    background-color: transparent;
+}
+
+.right-section {
+    background-color:var(--main-color);
+    width: 450px;
+    height: 100vh;
+    border-radius: 7px;
+    padding: 15px;
+}
+h3 {
+    text-transform: capitalize;
+    background-color:rgb(164, 112, 212);
+    width: 250px;
+    height: 50px;
+    border-radius: 250px;
+    color:var(--main-color);
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 85px;
+    margin-bottom: 15px;
+    padding: 10px;
+    position: relative;
+}
+h3::after, h3::before {
+    content: "";
+    position: absolute;
+   background:rgb(164, 112, 212);
+    width: 80px;
+    height: 3px;
+    top: 20px;
+ 
+    }
+    h3::after{
+        left: 240px;
+    }
+    h3::before {
+        right: 240px;
+        }
+        
+    .skills img {
+        width: 40px;
+        height: 40px;
+        margin-left: 50px;
+    }
+
+    .hobby {
+        display: flex;
+        justify-content: space-around;
+    }
+   .hobby p {
+    font-size: 20px;
+    font-weight: bold;
+   }
